@@ -1,1 +1,1 @@
-# yummy
+# https://yummypotes.github.io/yummy/
