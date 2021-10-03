@@ -1,1 +1,373 @@
 
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'roboto', sans-serif;
+  user-select: none;
+  user-zoom: none;
+}
+.outdoor{
+  background: re;
+  width: 100vw;
+  position: relative;
+  height: 420vw;
+}
+.imgcapa{
+position: absolute;
+width: 100%;
+height: 41vw;
+display: non;
+filter: blur(0px);
+}
+.cabecalho{
+  background-image: linear-gradient(to bottom right, hotpink,pink);
+  width: 100vw;
+  height: 60vw;
+  border-radius: 0 0 2vw 2vw;
+  position: relative;
+  position: absolut;
+  z-index: 9;
+  background: pink;
+}
+.logo{
+  background: whitesmoke;
+  width: 35vw;
+  height: 35vw;
+  margin: auto;
+  top: 4vw;
+  position: relative;
+  border-radius: 100vw;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.imglogo{
+  width: 100%;
+  height: 100%;
+  border-radius: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+h1{
+  position: absolute;
+  top: 28vw;
+  width: 100vw;
+  text-align: center;
+  font-size: 12vw;
+  color: deeppink;
+  letter-spacing: 1vw;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.5); 
+  background: ;
+  font-family: 'roboto', sans-serif;
+}
+h2{
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  top: 51.7vw;
+  color: white;
+  background: deeppink;
+  font-weight: 500;
+}
+.menu{
+  background: hotpink;
+  width: 100%;
+  height: 55.5vw;
+  position: fixed;
+  top: -100%;
+  z-index: 8;
+  transition: .5s;
+}
+ul{
+  background: pink;
+  width: 100%;
+  padding-left: 0;
+  position: relative;
+  top: 5vw;
+}
+.li-menu{
+  padding: 3vw;
+  padding-right: 3vw;
+  text-align: center;
+  transition: .5s;
+  font-weight: 500;
+  color: deeppink;
+  border-bottom: .1vw solid pink;
+}
+.li-menu:hover{
+  background: hotpink;
+  letter-spacing: 1.5vw;
+  font-weight: 900;
+  transition: .5s;
+  color: white;
+}
+.banner{
+  background: whitesmoke;
+  width: 100vw;
+  height: 40vw;
+  display: non;
+}
+.destaques{
+  background: orang;
+  width: 100vw;
+  height: 35vw;
+}
+.video{
+  background: pink;
+  position: relative;
+  margin: 5vw auto;
+  width: 94vw;
+  height: 50vw;
+  border-radius: 2vw;
+  border: solid deeppink 1vw;
+}
+video{
+  background: yello;
+}
+h3,h4{
+  width: 96vw;
+  background: re;
+  height: 10vw;
+  position: relative;
+  margin-left: 2vw;
+  color: hotpink;
+  line-height: 10vw;
+  font-size: 5vw;
+  font-family: 'roboto', sans-serif;
+}
+.content{
+  background: white;
+  width: 100vw;
+  height: 240vw;
+}
+.card{
+  background: lightgrey;
+  width: 48vw;
+  height: 30vw;
+  margin: 1vw;
+  margin-bottom: 5vw;
+  border-radius: 2vw;
+  float: left;
+  position: relative;
+}
+card13{
+  left: 25vw;
+}
+.precocard{
+  background: deeppink;
+  width: 18vw;
+  border-radius: 1vw;
+  padding: 1vw;
+  position: absolute;
+  font-size: 4vw;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  right: .9vw;
+  top: 11vw;
+  z-index: 6;
+}
+.linkpedir{
+  background: black;
+  width: 18vw;
+  padding: 1vw;
+  display: block;
+  position: absolute;
+  border-radius: 1vw;
+  right: .9vw;
+  font-size: 4vw;
+  top: 15vw;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  z-index: 5;
+}
+.imgcard{
+  background: whitesmoke;
+  width: 100%;
+  height: 100%;
+  border-radius: 2vw;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  transition: .5s;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+
+  display: non;
+}
+.card:hover .imgcard{
+  transition: .5s;
+  object-fit: cover;
+  object-position: bottom;
+  background-image: linear-gradient(transparent,black);
+}
+.card:hover .linkpedir{
+  transition: 1.5s;
+  z-index: 7;
+}
+.pcard{
+  position: absolute;
+  z-index: 2;
+  right: 1vw;
+  top: 18.5vw;
+  color: white;
+  font-size: 4vw;
+  background: hotpink;
+  width: vw;
+  padding: 1vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+.redes{
+  background: pink;
+  width: 100vw;
+  height: 15vw;
+  position: relative;
+  border-bottom: 1.5px solid hotpink;
+}
+#redes1{
+  background: whit;
+  position: absolute;
+  width: 100vw;
+  height: 40vw;
+  border:none;
+}
+.linkredes1{
+  width: 8vw;
+  height: 8vw;
+  margin: 1vw;
+  float: left;
+  position: relative;
+  transition: .5s
+}
+.linkredes1:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+#linkp1, #linkp2, #linkp3{
+  display: none;
+}
+#imgredes1, #imgredes2, #imgredes3{
+  width: 100%;
+  height: 100%;
+}
+.linkredes{
+  background: deeppink;
+  width: 30vw;
+  height: 10vw;
+  display: block; 
+  float: left;
+  margin: 1vw;
+  margin-left: 2vw;
+  margin-top: 2.5vw;
+  border-radius: 100vw;
+  position: relative;
+  transition: 1s;
+}
+.linkp1{
+  display: none;
+}
+.linkredes:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+.imgredes{
+  background: pink;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100vw;
+  transition: 1s;
+  display: block;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+.linkp{
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  line-height: 2vw;
+  text-align: right;
+  margin-right: 1.5vw;
+  z-index: 2;
+  width: 100%;
+  width: 16vw;
+  text-align: center;
+  background: re;
+  top: 0;
+  left: 11vw;
+  font-weight: 700;
+}
+.rodape{
+  background: pink;
+  width: 100vw;
+  height: 10vw;
+  position: relative;
+}
+.copy{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 3vw;
+  bottom: -2vw;
+  color: deeppink;
+  ext-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.anuncio{
+  background: lightblue;
+  width: 100vw;
+  height: 35vw;
+  position: relative;
+  z-index: 9;
+  display: none;
+}
+#check{
+  position: absolute;
+  display: none;
+}
+.lab-menu{
+  background: orangere;
+  width: 10vw;
+  height: 10vw;
+  display: block;
+  position: fixed;
+  right: 2vw;
+  top: 0;
+  display: none;
+}
+.botao{
+  background: deepskyblu;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  top: vw;
+  right: vw;
+  border-radius: 2vw;
+}
+.traco{
+  background: deeppink;
+  width: 8vw;
+  height: .8vw;
+  position: relative;
+  margin: 1vw auto;
+  top: 2.5vw;
+  border-radius: 2vw;
+}
+traco:hover{
+  background: white;
+  transform: rotate(40deg);
+}
+#check:checked ~ .menu{
+  top: 0;
+  transition: .3s;
+}
+#check:checked~.lab-menu{
+  z-index: 9;
+}
+.local{
+  background: whitesmoke;
+  width: 100vw;
+  height: 80%;
+  display: none;
+}
